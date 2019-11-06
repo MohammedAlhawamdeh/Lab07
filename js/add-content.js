@@ -16,3 +16,21 @@ var createGreet = function(){
 
 }
 createGreet();
+
+function writeGreet(){
+  var hourNow;
+  hourNow = prompt('do you like English?');
+  var name;
+  name = prompt('write down your English Level?')
+  var greeting;
+
+  if (hourNow = "yes"  ) {
+    greeting = 'cool!';
+  } else if (hourNow = "no") {
+    greeting = 'Good bye!';
+  }
+
+  document.write('<h3>' + greeting + ' ' + name + '</h3>');
+
+}
+writeGreet();
